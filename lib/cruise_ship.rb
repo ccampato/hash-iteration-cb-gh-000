@@ -8,5 +8,10 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  passengers["suite_a"]
+  winner = ""
+  passengers.each do |suite,name|
+    if suite == :suite_a && name == :name
+      winner = name
+    end
+  end
 end
