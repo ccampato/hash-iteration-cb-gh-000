@@ -5,7 +5,7 @@
 # }
 
 def happy_birthday(birthday_kids)
-  birthday_kids.each do |name, velue|
+  birthday_kids.each do |name, value|
     puts "Happy Birthday #{name}! You are now #{value}!"
   end
 end
